@@ -107,7 +107,7 @@ El sistema proporciona información detallada vía Serial Monitor:
 ```cpp
 float setpoint = 36.0;           // Temperatura objetivo (°C)
 float hysteresis = 0.5;          // Banda de histéresis para ON-OFF (°C)
-const int PWM_FREQ = 5000;       // Frecuencia PWM (Hz)
+const int PWM_FREQ = 2000;       // Frecuencia PWM (Hz)
 const int PWM_RESOLUTION = 12;   // Resolución PWM (bits)
 ```
 
@@ -119,25 +119,26 @@ Este proyecto desarrolla competencias en:
 - **Instrumentación**: Uso de sensores y actuadores industriales
 - **Análisis de Sistemas**: Comportamiento de plantas de primer orden
 
-## 📈 Versiones
+### 📊 Configuración PWM - Análisis Técnico
 
-### v1.0 - Lectura Básica ✅
-- [x] Lectura de temperatura DHT11
-- [x] Visualización en monitor serial
-- [x] Manejo de errores del sensor
+#### **Frecuencias PWM Recomendadas**
+| Frecuencia | Ventajas | Desventajas | Uso recomendado |
+|------------|----------|-------------|-----------------|
+| **100-1000 Hz** | Simple, bajo ruido EMI | Visible parpadeo, ruido audible | LEDs básicos |
+| **1-10 kHz** ⭐ | Buen balance, sin parpadeo | Algo de ruido audible | **Heaters, motores DC** |
+| **10-50 kHz** | Sin ruido audible | Mayor EMI, más complejo | Audio, iluminación |
+| **50+ kHz** | Muy limpio | Alto EMI, pérdidas switching | Fuentes conmutadas |
 
-### v2.0 - Control Implementado ✅ 
-- [x] Control ON-OFF con histéresis
-- [x] Control PWM proporcional
-- [x] Interfaz de cambio de modo
-- [x] LEDs indicadores
-- [x] Monitoreo avanzado
+> **✅ Nuestra elección: 5 kHz** - Óptimo para heaters resistivos con inercia térmica
 
-### v3.0 - Planificado 🚧
-- [ ] Control PID
-- [ ] Interfaz web
-- [ ] Logging de datos
-- [ ] Comunicación MQTT
+#### **Resolución PWM Disponible**
+| Resolución | Niveles | Precisión | Memoria | Velocidad | Uso |
+|------------|---------|-----------|---------|-----------|-----|
+| **8 bits** | 256 (0-255) | ~0.4% | Menos | Más rápido | Básico |
+| **12 bits** ⭐ | 4096 (0-4095) | ~0.024% | Más | Más lento | **Control precisión** |
+| **16 bits** | 65536 | ~0.0015% | Mucha | Lento | Ultra-precisión |
+
+> **✅ Nuestra elección: 12 bits** - Balance perfecto entre precisión y eficiencia para control térmico
 
 ## 🔬 Identificación del Sistema
 
@@ -160,9 +161,10 @@ Este proyecto es parte de un trabajo académico del curso **Control II**. Las co
 
 **Diego Andrés García Díaz** ([@dagdmfc](https://github.com/dagdmfc1946))
 - 🎓 Código: 2195533
-- 📧 [Contacto académico]
+- 📧 [diego2195533@correo.uis.edu.co]
+- 📧 [dagdmfc@gmail.com]
 - 🏫 Asignatura: Control II
-- 📅 Fecha: Marzo 2025
+- 📅 Fecha: Septiembre 2025
 
 ## 📚 Referencias
 
@@ -175,4 +177,4 @@ Este proyecto es parte de un trabajo académico del curso **Control II**. Las co
 Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para detalles.
 
 ---
-*Desarrollado como parte del proyecto de grado MIACON para la asignatura Control II* 🎓
+*Desarrollado como parte de colaboración del proyecto de grado MIACON para la asignatura Control II* 🎓
