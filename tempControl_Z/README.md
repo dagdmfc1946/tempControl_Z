@@ -18,7 +18,14 @@
 - [ ] Control PI
 - [ ] Control PID
 
-Opcional:
+🔬 Para la identificación de la planta se recomienda:
+- [ ] Ejecutar el sistema en modo PWM
+- [ ] Aplicar entrada escalón
+- [ ] Registrar respuesta por ~600 segundos
+- [ ] Usar MATLAB System Identification Toolbox
+- [ ] Modelar como sistema de primer orden + retardo
+
+⚠ Opcional:
 - [ ] Interfaz web
 - [ ] Logging de datos
 - [ ] Comunicación MQTT
