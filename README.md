@@ -8,7 +8,7 @@
 > **Sistema de control de temperatura de primer orden desarrollado para el Módulo 2 del proyecto de grado MIACON - Control II**
 
 > [!NOTE]
-> Se puede visualizar el informe realizado: [INFORME](https://www.overleaf.com/read/ygfkqjzxgrjt#f2e4d4) (ESTÁ SIN TERMINAR)
+> Se puede visualizar el informe realizado: [INFORME_1_TEMP_Control_Z_2195533](https://www.overleaf.com/read/ygfkqjzxgrjt#f2e4d4)
 
 ## 📖 Descripción
 
