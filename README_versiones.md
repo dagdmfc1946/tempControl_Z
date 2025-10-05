@@ -13,7 +13,7 @@
 - [x] Monitoreo más visual (Monitor Serial)
 
 > [!NOTE]
-> Informe 1 (identificación) realizado para **v1.0** y **v2.0**: [INFORME_1_TEMP_Control_Z_2195533](https://www.overleaf.com/read/ygfkqjzxgrjt#f2e4d4)
+> Informe 1 (identificación) realizado para **v1.0** y **v2.0**: [INFORME_1_TEMP_Control_Z_2195533](https://www.overleaf.com/read/ygfkqjzxgrjt#f2e4d4).
 
 ### v3.0 - Planificando... 🚧❌
 - [ ] Control P
@@ -28,7 +28,8 @@
 - [ ] Usar MATLAB System Identification Toolbox
 - [ ] Modelar como sistema de primer orden + retardo
 
-Informe 2 (final) realizado para **v3.0**: [INFORME_2_TEMP_Control_Z_2195533]()
+> [!NOTE]
+> Informe 2 (final) realizado para **v3.0**: [INFORME_2_TEMP_Control_Z_2195533](https://www.overleaf.com/read/npqnfcggdkfs#01d40b).
 
 ⚠ Opcional (Mejoras del proyecto):
 - [ ] Interfaz web

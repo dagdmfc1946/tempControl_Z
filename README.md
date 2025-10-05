@@ -10,7 +10,7 @@
 > [!NOTE]
 > - Se puede visualizar el informe realizado para la parte de identificación del modelo de la planta o sistema: [INFORME_1_TEMP_Control_Z_2195533](https://www.overleaf.com/read/ygfkqjzxgrjt#f2e4d4).
 >
-> - Se puede visualizar el informe realizado para el diseño de los controladores: **Coming soon...**
+> - Se puede visualizar el informe realizado para el diseño de los controladores: [INFORME_2_TEMP_Control_Z_2195533](https://www.overleaf.com/read/npqnfcggdkfs#01d40b).
 
 ## 📖 Descripción
 
@@ -153,9 +153,6 @@ Para la identificación de la planta se recomienda:
 3. Registrar respuesta por ~600 segundos
 4. Usar MATLAB System Identification Toolbox
 5. Modelar como sistema de primer orden + retardo
-
-> [!NOTE]
-> Informe 1 (identificación) realizado para **v1.0** y **v2.0**: [INFORME_1_TEMP_Control_Z_2195533](https://www.overleaf.com/read/ygfkqjzxgrjt#f2e4d4)
 
 ---
 
