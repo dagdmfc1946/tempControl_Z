@@ -8,8 +8,9 @@
 > **Sistema de control de temperatura de primer orden desarrollado para el Módulo 2 del proyecto de grado MIACON - Control II**
 
 > [!NOTE]
-> Se puede visualizar el informe realizado para la parte de identificación del modelo de la planta o sistema: [INFORME_1_TEMP_Control_Z_2195533](https://www.overleaf.com/read/ygfkqjzxgrjt#f2e4d4)
-> Se puede visualizar el informe realizado para el diseño de los controladores: **Coming soon...**
+> - Se puede visualizar el informe realizado para la parte de identificación del modelo de la planta o sistema: [INFORME_1_TEMP_Control_Z_2195533](https://www.overleaf.com/read/ygfkqjzxgrjt#f2e4d4).
+>
+> - Se puede visualizar el informe realizado para el diseño de los controladores: **Coming soon...**
 
 ## 📖 Descripción
 
