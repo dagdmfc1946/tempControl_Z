@@ -7,6 +7,9 @@
 
 > **Sistema de control de temperatura de primer orden desarrollado para el Módulo 2 del proyecto de grado MIACON - Control II**
 
+> [!NOTE]
+> Se puede visualizar el informe realizado: [INFORME](https://www.overleaf.com/read/ygfkqjzxgrjt#f2e4d4) (ESTÁ SIN TERMINAR)
+
 ## 📖 Descripción
 
 Este proyecto implementa un sistema completo de control de temperatura utilizando ESP32, sensor DHT11 y un heater como actuador. Forma parte del **Módulo 2: Identificación y control de una planta de primer orden** del curso de Control II.
