@@ -152,6 +152,11 @@ Para la identificación de la planta se recomienda:
 4. Usar MATLAB System Identification Toolbox
 5. Modelar como sistema de primer orden + retardo
 
+> [!NOTE]
+> Informe 1 (identificación) realizado para **v1.0** y **v2.0**: [INFORME_1_TEMP_Control_Z_2195533](https://www.overleaf.com/read/ygfkqjzxgrjt#f2e4d4)
+
+---
+
 ## 🤝 Contribuciones
 
 Este proyecto es parte de un trabajo académico del curso **Control II**. Las contribuciones son bienvenidas para:
