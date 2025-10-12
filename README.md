@@ -12,6 +12,8 @@
 >
 > - Se puede visualizar el informe realizado para el diseño de los controladores (**NO TERMINADO**): [INFORME_2_TEMP_Control_Z_2195533](https://www.overleaf.com/read/npqnfcggdkfs#01d40b).
 
+---
+
 ## 📖 Descripción
 
 Este proyecto implementa un sistema completo de control de temperatura utilizando ESP32, sensor DHT11 y un heater como actuador. Forma parte del **Módulo 2: Identificación y control de una planta de primer orden** del curso de Control II.
@@ -52,6 +54,8 @@ tempControl_Z/
 └── 📋 circuit_diagram.png               # Diagrama del circuito (próximamente)
 ```
 
+---
+
 ## 🚀 Instalación y Configuración
 
 ### Prerrequisitos
@@ -71,6 +75,8 @@ tempControl_Z/
 2. Abre `tempControl_Z__First_Order.ino` en Arduino IDE
 3. Selecciona la placa ESP32 y el puerto correspondiente
 4. Compila y carga el código
+
+---
 
 ## 💻 Uso del Sistema
 
@@ -92,6 +98,8 @@ Presiona el **botón** para alternar entre modos. El sistema mostrará en el mon
 🔄 Modo cambiado → PWM
 🔄 Modo cambiado → ON/OFF
 ```
+
+---
 
 ## 📊 Monitoreo en Tiempo Real
 
@@ -124,6 +132,8 @@ Este proyecto desarrolla competencias en:
 - **Instrumentación**: Uso de sensores y actuadores industriales
 - **Análisis de Sistemas**: Comportamiento de plantas de primer orden
 
+---
+
 ### 📊 Configuración PWM - Análisis Técnico
 
 #### **Frecuencias PWM Recomendadas**
@@ -134,7 +144,7 @@ Este proyecto desarrolla competencias en:
 | **10-50 kHz** | Sin ruido audible | Mayor EMI, más complejo | Audio, iluminación |
 | **50+ kHz** | Muy limpio | Alto EMI, pérdidas switching | Fuentes conmutadas |
 
-> **✅ Nuestra elección: 5 kHz** - Óptimo para heaters resistivos con inercia térmica
+> **✅ Elección: 5 kHz** - Óptimo para heaters resistivos con inercia térmica
 
 #### **Resolución PWM Disponible**
 | Resolución | Niveles | Precisión | Memoria | Velocidad | Uso |
@@ -143,7 +153,9 @@ Este proyecto desarrolla competencias en:
 | **12 bits** ⭐ | 4096 (0-4095) | ~0.024% | Más | Más lento | **Control precisión** |
 | **16 bits** | 65536 | ~0.0015% | Mucha | Lento | Ultra-precisión |
 
-> **✅ Nuestra elección: 12 bits** - Balance perfecto entre precisión y eficiencia para control térmico
+> **✅ Elección: 12 bits** - Balance perfecto entre precisión y eficiencia para control térmico
+
+---
 
 ## 🔬 Identificación del Sistema
 
@@ -180,4 +192,6 @@ Este proyecto es parte de un trabajo académico del curso **Control II**. Las co
 - [DHT11 Datasheet](https://www.mouser.com/datasheet/2/758/DHT11-Technical-Data-Sheet-Translated-Version-1143054.pdf)
 
 ---
-*Desarrollado como parte de colaboración del proyecto de grado MIACON para la asignatura Control II* 🎓
+
+> [!NOTE]
+> *Desarrollado como parte de colaboración del proyecto de grado MIACON para la asignatura Control II* 🎓
