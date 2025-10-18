@@ -25,7 +25,7 @@ El sistema permite:
 - 🔄 Cambio dinámico entre modos de control
 - 📱 Visualización de estados mediante LEDs indicadores
 
-## ✨ Características principales
+### ✨ Características principales
 
 - **Control Dual**: Implementación de control ON-OFF y PWM
 - **Interfaz Visual**: LEDs indicadores para cada modo de operación
@@ -33,7 +33,7 @@ El sistema permite:
 - **Monitoreo Serial**: Visualización detallada de variables en tiempo real
 - **Arquitectura Modular**: Código organizado y reutilizable
 
-## 🛠️ Componentes de Hardware
+### 🛠️ Componentes de Hardware
 
 | Componente | Función | Pin ESP32 |
 |------------|---------|-----------|
@@ -44,7 +44,7 @@ El sistema permite:
 | 🔘 **Botón** | Cambio de modo | Pin 27 |
 | 💡 **LED Interno** | Estado del heater | Pin 2 |
 
-## 📁 Estructura del Proyecto
+### 📁 Estructura del Proyecto
 
 ```
 tempControl_Z/
@@ -53,6 +53,9 @@ tempControl_Z/
 ├── 📖 README.md                         # Este archivo
 └── 📋 circuit_diagram.png               # Diagrama del circuito (próximamente)
 ```
+
+> [!NOTE]
+> Para hacer uso de lo anteriormente mencionado, [**¡HACER CLIC AQUI!**](https://github.com/dagdmfc1946/tempControl_Z/tree/main/Lectura_DHT11__OK/tempControl_Z__First_Order) para visualizar y/o descaragar los códigos usados para esta parte, ya que posteriormente todo se desarrollo directamente en el software de MATLAB.
 
 ---
 
@@ -99,6 +102,9 @@ Presiona el **botón** para alternar entre modos. El sistema mostrará en el mon
 🔄 Modo cambiado → ON/OFF
 ```
 
+> [!NOTE]
+> Se puede modificar los códigos anteriormente mencionados para integrar los controladores diseñados en MATLAB.
+
 ---
 
 ## 📊 Monitoreo en Tiempo Real
@@ -115,7 +121,7 @@ El sistema proporciona información detallada vía Serial Monitor:
 ⚡ PWM | Temp: 34.2°C | Setpoint: 36.0°C | Error: 1.80°C | Duty: 360/4095 (8.8%)
 ```
 
-## ⚙️ Parámetros Configurables
+### ⚙️ Parámetros Configurables
 
 ```cpp
 float setpoint = 36.0;           // Temperatura objetivo (°C)
@@ -124,13 +130,16 @@ const int PWM_FREQ = 2000;       // Frecuencia PWM (Hz)
 const int PWM_RESOLUTION = 12;   // Resolución PWM (bits)
 ```
 
-## 🎯 Objetivos Pedagógicos
+### 🎯 Objetivos Pedagógicos
 
 Este proyecto desarrolla competencias en:
 - **Control de Procesos**: Implementación práctica de estrategias de control
 - **Sistemas Embebidos**: Programación de microcontroladores ESP32
 - **Instrumentación**: Uso de sensores y actuadores industriales
 - **Análisis de Sistemas**: Comportamiento de plantas de primer orden
+
+> [!NOTE]
+> Se puede modificar los códigos anteriormente mencionados para integrar los controladores diseñados en MATLAB.
 
 ---
 
@@ -159,7 +168,7 @@ Este proyecto desarrolla competencias en:
 
 ## 🔬 Identificación del Sistema
 
-Para la identificación de la planta se recomienda:
+Para la identificación de la planta se recomienda, además de seguir las instrucciones de la página web [¡HACER CLIC AQUÍ!](https://sites.google.com/view/miacon-proyectodegrado/gu%C3%ADas-de-laboratorio/m%C3%B3dulo-2-identificaci%C3%B3n-y-control-de-una-planta-de-primer-orden):
 1. Ejecutar el sistema en modo PWM
 2. Aplicar entrada escalón
 3. Registrar respuesta por ~600 segundos
@@ -170,11 +179,10 @@ Para la identificación de la planta se recomienda:
 
 ## 🤝 Contribuciones
 
-Este proyecto es parte de un trabajo académico del curso **Control II**. Las contribuciones son bienvenidas para:
-- Optimización de algoritmos
-- Mejoras en la interfaz
-- Documentación adicional
-- Nuevas estrategias de control
+Este proyecto es parte de un trabajo académico del curso **Control II**.
+
+> [!NOTE]
+> *Desarrollado como parte de colaboración del **Trabajo de Grado MIACON** para la asignatura Control II* 🎓
 
 ## 👨‍💻 Autor
 
@@ -193,5 +201,3 @@ Este proyecto es parte de un trabajo académico del curso **Control II**. Las co
 
 ---
 
-> [!NOTE]
-> *Desarrollado como parte de colaboración del proyecto de grado MIACON para la asignatura Control II* 🎓

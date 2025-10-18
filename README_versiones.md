@@ -1,40 +1,42 @@
-## 📈 Versiones
+# 📈 Versiones
 
 ---
 
-🔬 Para la identificación de la planta se recomienda:
-- [✔] Ejecutar el sistema en modo PWM
-- [✔] Aplicar entrada escalón
-- [✔] Registrar respuesta por ~600 segundos
-- [✔] Usar MATLAB System Identification Toolbox
-- [✔] Modelar como sistema de primer orden + retardo
+## 🔬 Para la identificación de la planta se recomienda:
+
+1. Ejecutar el sistema en modo PWM
+2. Aplicar entrada escalón
+3. Registrar respuesta por ~600 segundos
+4. Usar MATLAB System Identification Toolbox
+5. Modelar como sistema de primer orden + retardo
 
 ---
 
 ### v1.0 - Lectura Básica ✅
-- [x] Lectura de temperatura DHT11
-- [x] Visualización en monitor serial
-- [x] Manejo de errores del sensor
+- [✔] Lectura de temperatura DHT11
+- [✔] Visualización en monitor serial
+- [✔] Manejo de errores del sensor
 
 ---
 
-### v2.0 - Control Implementado ✅ 
-- [x] Control ON-OFF con histéresis
-- [x] Control PWM proporcional
-- [x] Interfaz de cambio de modo (ON/OFF - PWM)
-- [x] LEDs indicadores (ON/OFF - PWM)
-- [x] Monitoreo más visual (Monitor Serial)
+### v2.0 - Control Básico Implementado (Arduino IDE y ESP32) ✅ 
+- [✔] Control ON-OFF con histéresis
+- [✔] Control PWM proporcional
+- [✔] Interfaz de cambio de modo (ON/OFF - PWM)
+- [✔] LEDs indicadores (ON/OFF - PWM)
+- [✔] Monitoreo más visual (Monitor Serial)
 
 > [!NOTE]
 > Informe 1 (identificación) realizado para **v1.0** y **v2.0**: [INFORME_1_TEMP_Control_Z_2195533](https://www.overleaf.com/read/ygfkqjzxgrjt#f2e4d4).
 
 ---
 
-### v3.0 - Planificando... 🚧❌
-- [x] Control P		(🛠 Ya se tiene una base)
-- [ ] Control PD	(🛠)
-- [ ] Control PI	(🛠)
-- [ ] Control PID	(🛠)
+### v3.0 - Controladores P, PI, PD y PID ✅ 
+Se diseñaron los controladores usando el método analítico (ubicación de polos) con **aproximación de Padé**, el método de **Ziegler-Nichols**, y herramientas de MATLAB como **pid()**, **PID Tuner**, **sisotool**, entre otras.
+- [✔] Control P	
+- [✔] Control PD	
+- [✔] Control PI	
+- [✔] Control PID	
 
 > [!NOTE]
 > Informe 2 (final) realizado para **v3.0**: [INFORME_2_TEMP_Control_Z_2195533](https://www.overleaf.com/read/npqnfcggdkfs#01d40b).
@@ -42,10 +44,10 @@
 ---
 
 ### Mejoras opcionales... 🔜
-⚠ Opcional (Mejoras del proyecto):
-- [ ] Interfaz web
-- [ ] Logging de datos
-- [ ] Comunicación MQTT
+⚠ Opcionalmente se pueden integrar más funcionalidades y mayor robustez:
+- [🛠] Logging de datos
+- [🛠] Comunicación MQTT
+- [🛠] Almacenamiento y procesamiento de datos (**Internet of Things - IoT**).
 
 ---
 
