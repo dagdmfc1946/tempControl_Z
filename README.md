@@ -5,9 +5,9 @@
 [![Arduino IDE](https://img.shields.io/badge/Arduino%20IDE-Compatible-orange.svg)](https://www.arduino.cc/en/software)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-### **Sistema de control de temperatura de primer orden desarrollado para el Módulo 2 del proyecto de grado MIACON - Control II**
-
 > [!NOTE]
+> - **Sistema de control de temperatura de primer orden desarrollado para el Módulo 2 del proyecto de grado MIACON - Control II**
+>
 > - Se puede visualizar el informe realizado para la parte de identificación del modelo de la planta o sistema: [INFORME_1_TEMP_Control_Z_2195533](https://www.overleaf.com/read/ygfkqjzxgrjt#f2e4d4).
 >
 > - Se puede visualizar el informe realizado para el diseño de los controladores (**NO TERMINADO**): [INFORME_2_TEMP_Control_Z_2195533](https://www.overleaf.com/read/npqnfcggdkfs#01d40b).
