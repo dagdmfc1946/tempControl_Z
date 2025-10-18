@@ -53,11 +53,10 @@ Se diseñaron los controladores usando el método analítico (ubicación de polo
 
 ## 🤝 Contribuciones
 
-Este proyecto es parte de un trabajo académico del curso **Control II**. Las contribuciones son bienvenidas para:
-- Optimización de algoritmos
-- Mejoras en la interfaz
-- Documentación adicional
-- Nuevas estrategias de control
+Este proyecto es parte de un trabajo académico del curso **Control II**.
+
+> [!NOTE]
+> *Desarrollado como parte de colaboración del **Trabajo de Grado MIACON** para la asignatura Control II* 🎓
 
 ## 👨‍💻 Autor
 
@@ -73,10 +72,6 @@ Este proyecto es parte de un trabajo académico del curso **Control II**. Las co
 - [Guía Módulo 2 - MIACON](https://sites.google.com/view/miacon-proyectodegrado/gu%C3%ADas-de-laboratorio/m%C3%B3dulo-2-identificaci%C3%B3n-y-control-de-una-planta-de-primer-orden)
 - [ESP32 Documentation](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/)
 - [DHT11 Datasheet](https://www.mouser.com/datasheet/2/758/DHT11-Technical-Data-Sheet-Translated-Version-1143054.pdf)
-
-## 📄 Licencia
-
-Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para detalles.
 
 ---
 

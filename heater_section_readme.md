@@ -62,11 +62,12 @@ temp = 38.0°C → error = -2.0°C → duty = 0   (0% - límite)    → 0mA
 
 ## 🤝 Contribuciones
 
-Este proyecto es parte de un trabajo académico del curso **Control II**. Las contribuciones son bienvenidas para:
-- Optimización de algoritmos
-- Mejoras en la interfaz
-- Documentación adicional
-- Nuevas estrategias de control
+Este proyecto es parte de un trabajo académico del curso **Control II**.
+
+> [!NOTE]
+> *Desarrollado como parte de colaboración del **Trabajo de Grado MIACON** para la asignatura Control II* 🎓
+
+---
 
 ## 👨‍💻 Autor
 
@@ -83,9 +84,4 @@ Este proyecto es parte de un trabajo académico del curso **Control II**. Las co
 - [ESP32 Documentation](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/)
 - [DHT11 Datasheet](https://www.mouser.com/datasheet/2/758/DHT11-Technical-Data-Sheet-Translated-Version-1143054.pdf)
 
-## 📄 Licencia
-
-Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para detalles.
-
 ---
-*Desarrollado como parte de colaboración del proyecto de grado MIACON para la asignatura Control II* 🎓
