@@ -47,7 +47,7 @@ Se diseñaron los controladores usando el método analítico (ubicación de polo
 ⚠ Opcionalmente se pueden integrar más funcionalidades y mayor robustez:
 - [🛠] Logging de datos
 - [🛠] Comunicación MQTT
-- [🛠] Almacenamiento y procesamiento de datos (**Internet of Things - IoT**).
+- [🛠] Almacenamiento y procesamiento de datos (**Internet of Things - IoT**)
 
 ---
 
