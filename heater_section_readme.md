@@ -14,8 +14,8 @@
 ### **Configuración del Transistor 2N2222**
 ```
 Esquema de conexión:
-Vin (5V) → Colector (2N2222) → Heater Pin 1
-           Heater Pin 2 → GND  
+Vin (5V) → Heater Pin 1 
+           Heater Pin 2 → Colector (2N2222)  
 D32 → 220Ω → Base (2N2222)
            Emisor (2N2222) → GND
 
